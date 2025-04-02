@@ -1,0 +1,21 @@
+{
+  "name": "node-devcontainer-template",
+  "version": "0.0.01",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "tsc --watch & node --watch dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
