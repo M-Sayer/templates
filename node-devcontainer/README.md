@@ -1,0 +1,1 @@
+Basic node devcontainer setup with typesceript support.
