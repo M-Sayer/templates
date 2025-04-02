@@ -1,1 +1,1 @@
-Basic node devcontainer template with typescript support.
+Basic dev/project setup templates
